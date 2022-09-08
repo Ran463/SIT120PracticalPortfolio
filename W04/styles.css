@@ -1,0 +1,9 @@
+body {
+  background-color: blanchedalmond;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#app h1 {
+  color: purple;
+  text-align: center;
+}

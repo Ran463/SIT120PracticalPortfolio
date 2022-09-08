@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>
+    <title>Week 4 Prac Task</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Welcome to my Week 4 Practical Task!</h1>
+      <h2>Hello World! Vue application</h2>
+      {{ message }}
+    </div>
+    <div id="app2">
+      <span v-bind:title="message">
+        This is my attempt at Declarative Rendering! Please hover mouse over me
+        for a few seconds
+      </span>
+    </div>
+    <script src="functions.js"></script>
+  </body>
+</html>
