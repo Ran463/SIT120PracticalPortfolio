@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+#logo-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: lightblue;
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+#nav-div {
+  width: 100%;
+  min-height: 30px;
+  background-color: lightskyblue;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#nav-div a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+#nav-div a:hover {
+  background-color: aliceblue;
+  color: black;
+}
+#nav-div a:active {
+  background-color: lightcyan;
+  color: royalblue;
+}
+#nav-div .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  #nav-div a:not(:first-child) {
+    display: none;
+  }
+  #nav-div a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  #nav-div.responsive {
+    position: relative;
+  }
+  #nav-div.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #nav-div.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+#header-banner-div {
+  width: 100%;
+  min-height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 601px) {
+  #header-banner-div h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #header-banner-div h1 {
+    font-size: 30px;
+  }
+}
+#main-div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#sidebar-div {
+  width: 20%;
+  min-height: 400px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 400px;
+  float: left;
+}
+#bodyarea-div {
+  width: 75%;
+  min-height: 400px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: normal;
+  float: right;
+}
+#bodyarea-div h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#bodyarea-div p {
+  margin-bottom: 20px;
+}
+#bodyarea-div .responsive {
+  max-width: 100%;
+  height: auto;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#footer-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 50px;
+}
+#wrapper-div {
+  width: 100%;
+  margin: auto;
+}
