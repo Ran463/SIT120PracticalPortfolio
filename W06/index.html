@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>
+    <title>Week 6 Prac Task</title>
+  </head>
+  <body>
+    <h1>Welcome to my Week 6 Practical Task!</h1>
+    <h2>Vue application with two types of inputs</h2>
+
+    <div id="emailAddress">
+      <p>
+        Email Address:
+        <input
+          v-model="emailInput"
+          type="'text"
+          placeholder="Enter your email"
+        />
+      </p>
+      <p>Print the email entered: {{ emailInput }}</p>
+      <br>
+    </div>
+
+    <div id="password">
+      <p>
+        Password:
+        <input
+          v-model="passwordInput"
+          type="text"
+          placeholder="Enter your password"
+        />
+      </p>Print the password entered: {{ passwordInput }}</p> 
+    </div>
+
+    <div id="checkbox">
+      <br>
+      <p>Please tick one or more boxes below:</p>
+      <input type="checkbox" id="red" value="Red" v-model="checkedColoursInput">
+      <label for="red">Red</label>
+
+      <input type="checkbox" id="blue" value="Blue" v-model="checkedColoursInput">
+      <label for="blue">Blue</label>
+
+      <input type="checkbox" id="yellow" value="Yellow" v-model="checkedColoursInput">
+      <label for="yellow">Yellow</label>
+
+      <input type="checkbox" id="green" value="Green" v-model="checkedColoursInput">
+      <label for="green">Green</label>
+
+      <br>
+      <p>Print the checked boxes: {{ checkedColoursInput }}</p>
+    </div>
+    <script src="functions.js"></script>
+  </body>
+</html>

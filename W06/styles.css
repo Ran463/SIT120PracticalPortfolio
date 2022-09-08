@@ -1,0 +1,23 @@
+body {
+  background-color: blanchedalmond;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* #logo-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: lightblue;
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 50px;
+  margin-bottom: 10px;
+} */
+h1 {
+  color: purple;
+  text-align: center;
+}
+#checkbox.red label [for="red"]
+{
+  color: red;
+}
+
