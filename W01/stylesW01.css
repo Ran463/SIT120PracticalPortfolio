@@ -1,0 +1,20 @@
+.header {
+  background-color: rgb(189, 188, 188);
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  background-color: blanchedalmond;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+}
+
+h3 {
+  color: blueviolet;
+}
